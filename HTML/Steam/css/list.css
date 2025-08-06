@@ -1,0 +1,30 @@
+.header {
+    height: 200px;
+    position: relative;
+    /* background-color: bisque; */
+    border-bottom: 3px solid #888484;
+}
+
+.container {
+    height: 2000px;
+    background-color: #ccc;
+}
+
+.list2 ul li {
+    /* 防止图片超出li盒子的大小 */
+    overflow: hidden;
+    /* float: left; */
+    margin-right: 13px;
+    text-align: center;
+    width: 460px;
+    height: 215px;
+    border: 1px solid transparent;
+}
+
+.list2 ul li:nth-child(2n) {
+    margin-right: 0;
+}
+
+.list2 ul li:hover {
+    border: 2px solid #363738;
+}

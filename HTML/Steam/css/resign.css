@@ -1,0 +1,130 @@
+        * {
+        padding: 0;
+        margin: 0
+    }
+    
+    .w {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .header {
+        height: 200px;
+        position: relative;
+        /* background-color: bisque; */
+        border-bottom: 3px solid #888484;
+    }
+    
+    .logo {
+        width: 300px;
+        height: 96px;
+        /* background-color: rgb(0, 140, 255); */
+        position: absolute;
+        top: 50px;
+        left: 40px;
+        padding-bottom: 20px;
+    }
+    
+    .logo a {
+        display: block;
+        width: 300px;
+        height: 96px;
+        background: url(../images/logo.png) no-repeat;
+        font-size: 0;
+    }
+    
+    .resign {
+        background-color: #c4c7c7;
+    }
+    
+    .bd {
+        height: 1000px;
+        border: 1px solid #ccc;
+        margin-top: 20px;
+        background-color: #e0e0e0;
+    }
+    
+    .bd h3 {
+        height: 45px;
+        border-bottom: 1px solid #ccc;
+        background-color: #ececec;
+        line-height: 42px;
+        padding: 0 10px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+    .login {
+        float: right;
+        font-size: 14px;
+    }
+    
+    .login a {
+        color: #c81523;
+    }
+    
+    .reg_form {
+        width: 600px;
+        background-color: #e0e0e0;
+        margin: 50px auto 0;
+    }
+    
+    .reg_form ul li {
+        margin-bottom: 20px;
+    }
+    
+    .reg_form ul li label {
+        display: inline-block;
+        width: 88px;
+        text-align: right;
+    }
+    
+    .reg_form ul li .inp {
+        width: 242px;
+        height: 37px;
+        border: 1px solid #ccc;
+    }
+    
+    .agree {
+        padding-left: 95px;
+    }
+    
+    .agree input {
+        vertical-align: middle;
+    }
+    
+    .agree a {
+        color: #1ba1e6;
+    }
+    
+    .btn {
+        width: 200px;
+        height: 34px;
+        background-color: #c81623;
+        font-size: 14px;
+        color: #fff;
+        margin: 30px 0 0 100px;
+    }
+    /* 底部模板 */
+    
+    .footer {
+        height: 150px;
+        /* position: relative; */
+        background-color: #f5f5f5;
+    }
+    
+    .mod_copyright {
+        border-top: solid 1px #ccc;
+        text-align: center;
+    }
+    
+    .links {
+        margin-bottom: 15px;
+    }
+    
+    .links a {
+        margin: 0 3px;
+    }
+    
+    .copyright {
+        line-height: 20px;
